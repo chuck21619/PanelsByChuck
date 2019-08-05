@@ -17,6 +17,7 @@
                 <outlet property="resizeBarRight" destination="lcU-R6-SMf" id="vnn-2m-U19"/>
                 <outlet property="rightPanelView" destination="Qae-ig-qO0" id="6fs-MY-3Xn"/>
                 <outlet property="rightPanelViewWidthConstraint" destination="lX5-UC-qql" id="VvF-DE-yOv"/>
+                <outlet property="topPanel" destination="hVv-0y-fgG" id="2Uu-sE-aqs"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
@@ -70,6 +71,21 @@
                             </connections>
                         </panGestureRecognizer>
                     </gestureRecognizers>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVv-0y-fgG">
+                    <rect key="frame" x="0.0" y="307" width="996" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="438-vu-Z1x">
+                            <rect key="frame" x="-2" y="0.0" width="464" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="this is a tesxt stest" id="weu-SM-1de">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
                 </customView>
             </subviews>
             <constraints>

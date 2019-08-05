@@ -123,6 +123,8 @@ public class Panels: NSView, ResizeBehaviorDelegate, NSWindowDelegate, NSGesture
     
     @IBOutlet var contentView: NSView!
     
+    @IBOutlet public weak var topPanel: NSView!
+    
     @IBOutlet weak var leftPanelView: NSView!
     @IBOutlet weak var mainPanelView: NSView!
     @IBOutlet weak var rightPanelView: NSView!
@@ -138,23 +140,6 @@ public class Panels: NSView, ResizeBehaviorDelegate, NSWindowDelegate, NSGesture
     private var preventPanelResizing = false
     
     // MARK: - Resizing gestures
-//    public func gestureRecognizerShouldBegin(_ gestureRecognizer: NSGestureRecognizer) -> Bool {
-//
-//        if let panGestureRecognizer = gestureRecognizer as? NSPanGestureRecognizer {
-//
-//            let velocity = panGestureRecognizer.velocity(in: self)
-//            let shouldBegin = fabs(velocity.x) > fabs(velocity.y)
-//            return shouldBegin
-//        }
-//
-//        return true
-//    }
-
-//    public func gestureRecognizer(_ gestureRecognizer: NSGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: NSGestureRecognizer) -> Bool {
-//
-//        return true
-//    }
-    
     @IBAction func leftPanelResizing(_ sender: NSPanGestureRecognizer) {
         
         guard shouldResizePanel(sender) == true, let leftPanel = self.leftPanel else {
