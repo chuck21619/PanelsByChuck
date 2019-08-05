@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -26,25 +26,25 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="JQh-tB-bkV">
-                    <rect key="frame" x="0.0" y="0.0" width="332" height="329"/>
+                    <rect key="frame" x="0.0" y="0.0" width="332" height="309"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="332" id="AsA-Uc-ed1"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="Qae-ig-qO0">
-                    <rect key="frame" x="664" y="0.0" width="332" height="329"/>
+                    <rect key="frame" x="664" y="0.0" width="332" height="309"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="332" id="lX5-UC-qql"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="oxJ-Ja-5H9">
-                    <rect key="frame" x="332" y="0.0" width="332" height="329"/>
+                    <rect key="frame" x="332" y="0.0" width="332" height="309"/>
                     <constraints>
                         <constraint firstAttribute="width" priority="250" constant="332" id="W7D-ve-TMo"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="0g0-8J-8VK" customClass="ResizeBar" customModule="Panels" customModuleProvider="target">
-                    <rect key="frame" x="369" y="0.0" width="8" height="329"/>
+                    <rect key="frame" x="369" y="0.0" width="8" height="309"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="8" id="b38-DX-1GP"/>
                     </constraints>
@@ -58,7 +58,7 @@
                     </gestureRecognizers>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="lcU-R6-SMf" customClass="ResizeBar" customModule="Panels" customModuleProvider="target">
-                    <rect key="frame" x="659" y="0.0" width="8" height="329"/>
+                    <rect key="frame" x="659" y="0.0" width="8" height="309"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="8" id="QF1-uw-Aye"/>
                     </constraints>
@@ -73,20 +73,20 @@
                 </customView>
             </subviews>
             <constraints>
-                <constraint firstItem="0g0-8J-8VK" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="1ts-78-Sho"/>
+                <constraint firstItem="0g0-8J-8VK" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="1ts-78-Sho"/>
                 <constraint firstItem="0g0-8J-8VK" firstAttribute="leading" secondItem="JQh-tB-bkV" secondAttribute="trailing" constant="37" id="46d-zb-iaN"/>
                 <constraint firstItem="Qae-ig-qO0" firstAttribute="leading" secondItem="lcU-R6-SMf" secondAttribute="trailing" constant="-3" id="9uh-a2-b53"/>
                 <constraint firstItem="JQh-tB-bkV" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="CCo-Pr-ycL"/>
-                <constraint firstItem="lcU-R6-SMf" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="DCh-kI-qTr"/>
+                <constraint firstItem="lcU-R6-SMf" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="DCh-kI-qTr"/>
                 <constraint firstAttribute="trailing" secondItem="Qae-ig-qO0" secondAttribute="trailing" id="SJd-6W-Fg9"/>
                 <constraint firstAttribute="bottom" secondItem="JQh-tB-bkV" secondAttribute="bottom" id="Xqg-xk-DVO"/>
-                <constraint firstItem="oxJ-Ja-5H9" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="Yyz-az-5Fp"/>
+                <constraint firstItem="oxJ-Ja-5H9" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="Yyz-az-5Fp"/>
                 <constraint firstItem="Qae-ig-qO0" firstAttribute="leading" secondItem="oxJ-Ja-5H9" secondAttribute="trailing" id="cv8-Nw-Oa1"/>
                 <constraint firstAttribute="bottom" secondItem="Qae-ig-qO0" secondAttribute="bottom" id="dAu-CT-4fr"/>
                 <constraint firstItem="oxJ-Ja-5H9" firstAttribute="leading" secondItem="JQh-tB-bkV" secondAttribute="trailing" id="lNr-Sb-ypD"/>
                 <constraint firstAttribute="bottom" secondItem="lcU-R6-SMf" secondAttribute="bottom" id="mfL-KS-Rpd"/>
-                <constraint firstItem="Qae-ig-qO0" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="oBy-hR-gTb"/>
-                <constraint firstItem="JQh-tB-bkV" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="qb0-lM-wUV"/>
+                <constraint firstItem="Qae-ig-qO0" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="oBy-hR-gTb"/>
+                <constraint firstItem="JQh-tB-bkV" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="qb0-lM-wUV"/>
                 <constraint firstAttribute="bottom" secondItem="oxJ-Ja-5H9" secondAttribute="bottom" id="v9C-qc-evr"/>
                 <constraint firstAttribute="bottom" secondItem="0g0-8J-8VK" secondAttribute="bottom" id="xdl-HK-WRk"/>
             </constraints>
