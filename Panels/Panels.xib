@@ -27,25 +27,25 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="JQh-tB-bkV">
-                    <rect key="frame" x="0.0" y="0.0" width="332" height="309"/>
+                    <rect key="frame" x="0.0" y="0.0" width="332" height="274"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="332" id="AsA-Uc-ed1"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="Qae-ig-qO0">
-                    <rect key="frame" x="664" y="0.0" width="332" height="309"/>
+                    <rect key="frame" x="664" y="0.0" width="332" height="274"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="332" id="lX5-UC-qql"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="oxJ-Ja-5H9">
-                    <rect key="frame" x="332" y="0.0" width="332" height="309"/>
+                    <rect key="frame" x="332" y="0.0" width="332" height="274"/>
                     <constraints>
                         <constraint firstAttribute="width" priority="250" constant="332" id="W7D-ve-TMo"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="0g0-8J-8VK" customClass="ResizeBar" customModule="Panels" customModuleProvider="target">
-                    <rect key="frame" x="369" y="0.0" width="8" height="309"/>
+                    <rect key="frame" x="369" y="0.0" width="8" height="274"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="8" id="b38-DX-1GP"/>
                     </constraints>
@@ -59,7 +59,7 @@
                     </gestureRecognizers>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="lcU-R6-SMf" customClass="ResizeBar" customModule="Panels" customModuleProvider="target">
-                    <rect key="frame" x="659" y="0.0" width="8" height="309"/>
+                    <rect key="frame" x="659" y="0.0" width="8" height="274"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="8" id="QF1-uw-Aye"/>
                     </constraints>
@@ -72,37 +72,31 @@
                         </panGestureRecognizer>
                     </gestureRecognizers>
                 </customView>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVv-0y-fgG">
-                    <rect key="frame" x="0.0" y="307" width="996" height="20"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <subviews>
-                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="438-vu-Z1x">
-                            <rect key="frame" x="-2" y="0.0" width="464" height="17"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                            <textFieldCell key="cell" lineBreakMode="clipping" title="this is a tesxt stest" id="weu-SM-1de">
-                                <font key="font" usesAppearanceFont="YES"/>
-                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                            </textFieldCell>
-                        </textField>
-                    </subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="hVv-0y-fgG">
+                    <rect key="frame" x="0.0" y="274" width="996" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="sDd-k2-T6v"/>
+                    </constraints>
                 </customView>
             </subviews>
             <constraints>
-                <constraint firstItem="0g0-8J-8VK" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="1ts-78-Sho"/>
+                <constraint firstItem="JQh-tB-bkV" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="2O9-B0-odO"/>
                 <constraint firstItem="0g0-8J-8VK" firstAttribute="leading" secondItem="JQh-tB-bkV" secondAttribute="trailing" constant="37" id="46d-zb-iaN"/>
                 <constraint firstItem="Qae-ig-qO0" firstAttribute="leading" secondItem="lcU-R6-SMf" secondAttribute="trailing" constant="-3" id="9uh-a2-b53"/>
                 <constraint firstItem="JQh-tB-bkV" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="CCo-Pr-ycL"/>
-                <constraint firstItem="lcU-R6-SMf" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="DCh-kI-qTr"/>
+                <constraint firstAttribute="trailing" secondItem="hVv-0y-fgG" secondAttribute="trailing" id="CVN-Wa-B7d"/>
+                <constraint firstItem="lcU-R6-SMf" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="Gxo-72-IkK"/>
+                <constraint firstItem="hVv-0y-fgG" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="JRB-bh-wzF"/>
                 <constraint firstAttribute="trailing" secondItem="Qae-ig-qO0" secondAttribute="trailing" id="SJd-6W-Fg9"/>
+                <constraint firstItem="hVv-0y-fgG" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="SSv-5R-ubF"/>
+                <constraint firstItem="0g0-8J-8VK" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="UGM-UL-zgE"/>
+                <constraint firstItem="oxJ-Ja-5H9" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="V6Z-7l-UEB"/>
+                <constraint firstItem="Qae-ig-qO0" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="Vkr-5m-gEX"/>
                 <constraint firstAttribute="bottom" secondItem="JQh-tB-bkV" secondAttribute="bottom" id="Xqg-xk-DVO"/>
-                <constraint firstItem="oxJ-Ja-5H9" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="Yyz-az-5Fp"/>
                 <constraint firstItem="Qae-ig-qO0" firstAttribute="leading" secondItem="oxJ-Ja-5H9" secondAttribute="trailing" id="cv8-Nw-Oa1"/>
                 <constraint firstAttribute="bottom" secondItem="Qae-ig-qO0" secondAttribute="bottom" id="dAu-CT-4fr"/>
                 <constraint firstItem="oxJ-Ja-5H9" firstAttribute="leading" secondItem="JQh-tB-bkV" secondAttribute="trailing" id="lNr-Sb-ypD"/>
                 <constraint firstAttribute="bottom" secondItem="lcU-R6-SMf" secondAttribute="bottom" id="mfL-KS-Rpd"/>
-                <constraint firstItem="Qae-ig-qO0" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="oBy-hR-gTb"/>
-                <constraint firstItem="JQh-tB-bkV" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="qb0-lM-wUV"/>
                 <constraint firstAttribute="bottom" secondItem="oxJ-Ja-5H9" secondAttribute="bottom" id="v9C-qc-evr"/>
                 <constraint firstAttribute="bottom" secondItem="0g0-8J-8VK" secondAttribute="bottom" id="xdl-HK-WRk"/>
             </constraints>
