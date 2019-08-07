@@ -10,3 +10,4 @@ import Foundation
 
 public let showLeftPanel = Notification(name: Notification.Name(rawValue: "showLeftPanel"))
 public let showRightPanel = Notification(name: Notification.Name(rawValue: "showRightPanel"))
+
