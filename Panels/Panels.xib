@@ -27,25 +27,25 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="JQh-tB-bkV">
-                    <rect key="frame" x="0.0" y="0.0" width="332" height="274"/>
+                    <rect key="frame" x="0.0" y="0.0" width="332" height="329"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="332" id="AsA-Uc-ed1"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="Qae-ig-qO0">
-                    <rect key="frame" x="664" y="0.0" width="332" height="274"/>
+                    <rect key="frame" x="664" y="0.0" width="332" height="329"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="332" id="lX5-UC-qql"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="oxJ-Ja-5H9">
-                    <rect key="frame" x="332" y="0.0" width="332" height="274"/>
+                    <rect key="frame" x="332" y="0.0" width="332" height="329"/>
                     <constraints>
                         <constraint firstAttribute="width" priority="250" constant="332" id="W7D-ve-TMo"/>
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="0g0-8J-8VK" customClass="ResizeBar" customModule="Panels" customModuleProvider="target">
-                    <rect key="frame" x="369" y="0.0" width="8" height="274"/>
+                    <rect key="frame" x="369" y="0.0" width="8" height="329"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="8" id="b38-DX-1GP"/>
                     </constraints>
@@ -59,7 +59,7 @@
                     </gestureRecognizers>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="lcU-R6-SMf" customClass="ResizeBar" customModule="Panels" customModuleProvider="target">
-                    <rect key="frame" x="659" y="0.0" width="8" height="274"/>
+                    <rect key="frame" x="659" y="0.0" width="8" height="329"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="8" id="QF1-uw-Aye"/>
                     </constraints>
@@ -73,9 +73,9 @@
                     </gestureRecognizers>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="hVv-0y-fgG">
-                    <rect key="frame" x="0.0" y="274" width="996" height="55"/>
+                    <rect key="frame" x="0.0" y="329" width="996" height="0.0"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="55" id="sDd-k2-T6v"/>
+                        <constraint firstAttribute="height" id="sDd-k2-T6v"/>
                     </constraints>
                 </customView>
             </subviews>
