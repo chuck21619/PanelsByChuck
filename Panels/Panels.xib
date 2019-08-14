@@ -17,7 +17,6 @@
                 <outlet property="resizeBarRight" destination="lcU-R6-SMf" id="vnn-2m-U19"/>
                 <outlet property="rightPanelView" destination="Qae-ig-qO0" id="6fs-MY-3Xn"/>
                 <outlet property="rightPanelViewWidthConstraint" destination="lX5-UC-qql" id="VvF-DE-yOv"/>
-                <outlet property="topPanel" destination="hVv-0y-fgG" id="2Uu-sE-aqs"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
@@ -72,33 +71,24 @@
                         </panGestureRecognizer>
                     </gestureRecognizers>
                 </customView>
-                <customView translatesAutoresizingMaskIntoConstraints="NO" id="hVv-0y-fgG">
-                    <rect key="frame" x="0.0" y="329" width="996" height="0.0"/>
-                    <constraints>
-                        <constraint firstAttribute="height" id="sDd-k2-T6v"/>
-                    </constraints>
-                </customView>
             </subviews>
             <constraints>
-                <constraint firstItem="JQh-tB-bkV" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="2O9-B0-odO"/>
+                <constraint firstItem="oxJ-Ja-5H9" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="21o-tv-Tb2"/>
                 <constraint firstItem="0g0-8J-8VK" firstAttribute="leading" secondItem="JQh-tB-bkV" secondAttribute="trailing" constant="37" id="46d-zb-iaN"/>
                 <constraint firstItem="Qae-ig-qO0" firstAttribute="leading" secondItem="lcU-R6-SMf" secondAttribute="trailing" constant="-3" id="9uh-a2-b53"/>
                 <constraint firstItem="JQh-tB-bkV" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="CCo-Pr-ycL"/>
-                <constraint firstAttribute="trailing" secondItem="hVv-0y-fgG" secondAttribute="trailing" id="CVN-Wa-B7d"/>
-                <constraint firstItem="lcU-R6-SMf" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="Gxo-72-IkK"/>
-                <constraint firstItem="hVv-0y-fgG" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="JRB-bh-wzF"/>
+                <constraint firstItem="lcU-R6-SMf" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="EE2-gi-diz"/>
+                <constraint firstItem="Qae-ig-qO0" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="KO0-l1-vuQ"/>
                 <constraint firstAttribute="trailing" secondItem="Qae-ig-qO0" secondAttribute="trailing" id="SJd-6W-Fg9"/>
-                <constraint firstItem="hVv-0y-fgG" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="SSv-5R-ubF"/>
-                <constraint firstItem="0g0-8J-8VK" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="UGM-UL-zgE"/>
-                <constraint firstItem="oxJ-Ja-5H9" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="V6Z-7l-UEB"/>
-                <constraint firstItem="Qae-ig-qO0" firstAttribute="top" secondItem="hVv-0y-fgG" secondAttribute="bottom" id="Vkr-5m-gEX"/>
                 <constraint firstAttribute="bottom" secondItem="JQh-tB-bkV" secondAttribute="bottom" id="Xqg-xk-DVO"/>
                 <constraint firstItem="Qae-ig-qO0" firstAttribute="leading" secondItem="oxJ-Ja-5H9" secondAttribute="trailing" id="cv8-Nw-Oa1"/>
                 <constraint firstAttribute="bottom" secondItem="Qae-ig-qO0" secondAttribute="bottom" id="dAu-CT-4fr"/>
+                <constraint firstItem="JQh-tB-bkV" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="fhH-IO-vA6"/>
                 <constraint firstItem="oxJ-Ja-5H9" firstAttribute="leading" secondItem="JQh-tB-bkV" secondAttribute="trailing" id="lNr-Sb-ypD"/>
                 <constraint firstAttribute="bottom" secondItem="lcU-R6-SMf" secondAttribute="bottom" id="mfL-KS-Rpd"/>
                 <constraint firstAttribute="bottom" secondItem="oxJ-Ja-5H9" secondAttribute="bottom" id="v9C-qc-evr"/>
                 <constraint firstAttribute="bottom" secondItem="0g0-8J-8VK" secondAttribute="bottom" id="xdl-HK-WRk"/>
+                <constraint firstItem="0g0-8J-8VK" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="yo8-gM-cr3"/>
             </constraints>
             <point key="canvasLocation" x="397" y="197.5"/>
         </customView>

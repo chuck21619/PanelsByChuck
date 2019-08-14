@@ -63,11 +63,6 @@ public class Panels: NSView, ResizeBehaviorDelegate, NSWindowDelegate, NSGesture
         }
     }
     
-    public func setTopBar(viewController: NSViewController) {
-    
-        replace(contentsOf: self.topPanel, with: viewController.view)
-    }
-    
     @objc public func toggleLeftPanel() {
         
         guard let leftPanel = self.leftPanel else {
@@ -127,8 +122,6 @@ public class Panels: NSView, ResizeBehaviorDelegate, NSWindowDelegate, NSGesture
     @IBOutlet var mainPanelViewWidthConstraint: NSLayoutConstraint!
     
     @IBOutlet var contentView: NSView!
-    
-    @IBOutlet public weak var topPanel: NSView!
     
     @IBOutlet weak var leftPanelView: NSView!
     @IBOutlet weak var mainPanelView: NSView!
